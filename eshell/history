@@ -1,0 +1,29 @@
+ls
+ls -a
+rm Gilberto\ Balam\ -\ Meditaciones\ en\ Lecumberri.tex
+ls
+rm texput.log 
+clear
+ls -a
+ls
+rm main.synctex.gz
+rm main.log
+clear
+ls
+rm main.pdf main.aux main.tex 
+clear
+clear
+ls
+touch problemas.org
+ls
+ls
+vim problemas.tex
+ls
+cd
+sudo $(which tlmgr) install wrapfig
+cd
+cd .emacs.d/
+ls
+cd elpa/
+ls -a
+vim ace-window-readme.txt 

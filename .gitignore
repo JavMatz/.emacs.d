@@ -1,0 +1,7 @@
+#Folders
+
+elpa/
+auto-save-list/
+
+#Files
+init.el~

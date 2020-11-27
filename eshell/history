@@ -27,3 +27,18 @@ ls
 cd elpa/
 ls -a
 vim ace-window-readme.txt 
+cd Programming/
+ls
+cd LISP
+ls
+cd Tutorial/
+ls
+clisp sum_helloWorld.lisp 
+rm sum_helloWorld.lisp 
+clear
+touch Apuntes.org
+emacs Apuntes.org 
+ll
+ls
+rm Gilberto\ Balam\ -\ Meditaciones\ en\ Lecumberri.odt
+exit

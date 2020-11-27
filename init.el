@@ -19,8 +19,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-;; Sets the fill-column param to 60
-(setq-default fill-column 60)
+;; Sets the fill-column param to 80
+(setq-default fill-column 80)
 
 ;; Custom key rebindings
 ;;

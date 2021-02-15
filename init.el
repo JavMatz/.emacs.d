@@ -5,25 +5,40 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+;; MELPA
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (tango-dark)))
- '(package-selected-packages (quote (auctex))))
-  (custom-set-faces
+ '(package-selected-packages (quote (slime auctex))))
+  
+(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
 
+;;Common LISP
+(setq inferior-lisp-program "/usr/bin/sbcl")
+
+;;Source block languages
+(setq org-confirm-babel-evaluate nil)
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((lisp . t)
+   (C . t)))
+
 ;; Sets the fill-column param to 80
-(setq-default fill-column 80)
+(setq-default fill-column 100)
 
 ;; Custom key rebindings
-;;
 ;;
 ;; Global key bindings
 (global-set-key (kbd "C-c <right>") 'next-buffer)

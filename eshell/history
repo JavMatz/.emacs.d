@@ -1,44 +1,128 @@
 ls
-ls -a
-rm Gilberto\ Balam\ -\ Meditaciones\ en\ Lecumberri.tex
+rm -r Varsovia a
+mkdir 'Maria Sten - De Varsovia a Oaxaca'
+cd Maria\ Sten\ -\ De\ Varsovia\ a\ Oaxaca/
+cd ..
+cd Gilberto\ Balam\ -\ Meditaciones\ en\ Lecumberri/
 ls
-rm texput.log 
-clear
-ls -a
-ls
-rm main.synctex.gz
-rm main.log
-clear
-ls
-rm main.pdf main.aux main.tex 
-clear
+cd ..
+cd Maria\ Sten\ -\ De\ Varsovia\ a\ Oaxaca/
 clear
 ls
-touch problemas.org
+touch Maria Sten - De Varsovia a Oaxaca.org
 ls
+rm De Maria Oaxaca.org Sten Varsovia a
+touch 'Maria Sten - De Varsovia a Oaxaca.org'
 ls
-vim problemas.tex
+cd ..
+cd Documentos/
 ls
-cd
-sudo $(which tlmgr) install wrapfig
-cd
-cd .emacs.d/
+cd Escuela/
 ls
-cd elpa/
-ls -a
-vim ace-window-readme.txt 
-cd Programming/
+cd Tareas/
 ls
-cd LISP
-ls
-cd Tutorial/
-ls
-clisp sum_helloWorld.lisp 
-rm sum_helloWorld.lisp 
+cd Estructura\ de\ datos/
 clear
-touch Apuntes.org
-emacs Apuntes.org 
+cd 1er\ parcial/
+clear
+ls
+cd Paso\ de\ parametros\ -\ Suma/
+ls
+cd Suma/
+ls
+clear
+ls
+gpp main.cpp
+gcc main.cpp
+cd Documentos/Escuela/Tareas/Estructura\ de\ datos/
+ls
+cd 1er\ parcial/
+clear
+ls
+cd Clases\ -\ Calendario/
+clear
+ls
+cd Clase\ -\ Calendario/
+ls
+clear
+ls
+cd .themes/
+cd Numix-Cinnamon-Transparent/
 ll
 ls
-rm Gilberto\ Balam\ -\ Meditaciones\ en\ Lecumberri.odt
-exit
+cd cinnamon/
+ls
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+rm cinnamon.css
+cp cinnamon.css.bckp cinnamon.css
+ls
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+ls
+rm cinnamon.css
+cp cinnamon.css.bckp cinnamon.css
+touch cinnamon.org
+ls
+clear
+cd
+cd Documentos/
+ls
+cd EMACS_CONF/
+cd .emacs.d/
+ls
+ls
+cd
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+ls
+rm cinnamon.css.bckp
+rm cinnamon.org
+cp cinnamon.css cinnamon.css.bckp
+ls
+cd
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+ls
+cd .themes/Numix-Cinnamon-Transparent/
+cd cinnamon/
+cd ..
+ls
+ls -a
+cd .themes/Numix-Cinnamon-Transparent/cinnamon/
+rm cinnamon.css~
+cd .themes/Mint-Y-Dark-Grey/
+ll
+ls
+cd cinnamon/
+ls
+cd .themes/qob/
+cd .themes/qob/cinnamon/
+cd .themes/qob/
+ls
+cd cinnamon/
+ls
+ls
+cd Documentos/
+ll
+ls
+cd Libros/
+ls
+mkdir Cuentos
+cd Cuentos/
+touch 'Mis cuentos favoritos'
+mv 'Mis cuentos favoritos' 'Mis cuentos favoritos.org'
+cd Documentos/
+ll
+ls
+cd Libros/
+ls
+touch 'Registro de libros'
+mv 'Registro de libros' 'Registro de libros.org'
+ls
+ls
+rm 'Registro de libros'
+rm 'Registro de libros~'
+rm '#Registro de libros#'
+ls
+cd Cuentos/
+ll
+ls

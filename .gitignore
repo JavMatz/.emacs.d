@@ -3,6 +3,6 @@
 elpa/
 auto-save-list/
 eshell/
+slime/
 
 #Files
-init.el~
